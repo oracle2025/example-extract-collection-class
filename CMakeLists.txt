@@ -3,5 +3,5 @@ project(example_extract_collection_class)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(example_extract_collection_class src/main.cpp src/LargeTangledClass.cpp src/LargeTangledClass.hpp src/DataBase.cpp src/DataBase.hpp)
+add_executable(example_extract_collection_class src/main.cpp src/LargeTangledClass.cpp src/LargeTangledClass.hpp src/DataBase.cpp src/DataBase.hpp src/CollectionClass.cpp src/CollectionClass.hpp)
 target_include_directories(example_extract_collection_class PUBLIC include)
