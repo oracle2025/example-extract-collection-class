@@ -2,7 +2,7 @@
 #include "CollectionClass.hpp"
 
 void LargeTangledClass::saveToDatabase() {
-    for (auto [key, value]:m_data) {
+    for (auto [key, value]:allRecords()) {
         m_dataBase.store(key, value);
     }
 }
