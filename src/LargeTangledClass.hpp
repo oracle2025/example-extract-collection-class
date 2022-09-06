@@ -5,7 +5,7 @@
 #include "DataBase.hpp"
 #include "CollectionClass.hpp"
 
-class LargeTangledClass : public CollectionClass {
+class LargeTangledClass  {
 public:
     LargeTangledClass();
 
@@ -13,6 +13,6 @@ public:
 
 private:
     DataBase m_dataBase;
-    CollectionClass &m_collection;
+    CollectionClass m_collection;
 };
 

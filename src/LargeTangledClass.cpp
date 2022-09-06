@@ -7,6 +7,6 @@ void LargeTangledClass::saveToDatabase() {
     }
 }
 
-LargeTangledClass::LargeTangledClass() :m_collection(*this){
+LargeTangledClass::LargeTangledClass() {
 
 }
