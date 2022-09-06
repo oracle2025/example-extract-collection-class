@@ -7,10 +7,12 @@
 
 class LargeTangledClass : public CollectionClass {
 public:
+    LargeTangledClass();
 
     void saveToDatabase();
 
 private:
     DataBase m_dataBase;
+    CollectionClass &m_collection;
 };
 
