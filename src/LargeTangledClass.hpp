@@ -17,7 +17,6 @@ public:
     void saveToDatabase();
 
 private:
-    std::map<std::string, std::string> m_data;
     DataBase m_dataBase;
 };
 

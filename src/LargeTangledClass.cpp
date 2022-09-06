@@ -1,4 +1,5 @@
 #include "LargeTangledClass.hpp"
+#include "CollectionClass.hpp"
 
 void LargeTangledClass::addRecord(record r) {
     m_data[r.name] = r.value;
